@@ -1,0 +1,18 @@
+This repository contains a VBA script for analyzing stock data across multiple worksheets in an Excel workbook. The script calculates key metrics such as quarterly changes, percentage changes, and total volumes, then identifies stocks with the highest percentage increase, decrease, and the greatest total volume.
+
+Files
+
+VBA Script - The VBA script code to import into Excel.
+Multiple_year_stock_data.xlsx - Sample dataset containing multiple years of stock data for analysis.
+Features
+
+Data Retrieval: The script loops through each stock in every worksheet, retrieving:
+Ticker symbol
+Total volume
+Quarterly change
+Percentage change
+Conditional Formatting: Positive changes are highlighted in green, and negative changes in red for easy identification.
+Greatest Values Calculation:
+Finds the stock with the greatest percentage increase.
+Finds the stock with the greatest percentage decrease.
+Finds the stock with the greatest total volume.
